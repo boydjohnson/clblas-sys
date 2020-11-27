@@ -8,7 +8,6 @@ links = "clBLAS"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-cl-sys = "^0.4"
 
 [build-dependencies]
 bindgen = "^0.53"
