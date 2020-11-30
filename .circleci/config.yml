@@ -1,0 +1,12 @@
+version: "2.0"
+executors:
+  executor:
+    docker:
+      - image: boydjohnson/clblas-sys:latest
+jobs:
+  build:
+    executor: executor
+    steps:
+      - run: cargo build
+      - run: cargo test
+      - run: cargo doc
