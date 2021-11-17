@@ -10,4 +10,4 @@ links = "clBLAS"
 [dependencies]
 
 [build-dependencies]
-bindgen = "^0.53"
+bindgen = "0.59"
