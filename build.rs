@@ -24,6 +24,7 @@ fn main() {
         .opaque_type("cl_uchar8")
         .opaque_type("cl_uint2")
         .opaque_type("cl_ushort4")
+        .blocklist_item("CL_M.*")
         .blocklist_type("cl_command_queue")
         .raw_line("use cl_sys::cl_command_queue;")
         .blocklist_type("cl_context")
